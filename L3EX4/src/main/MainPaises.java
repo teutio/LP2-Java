@@ -36,6 +36,7 @@ public class MainPaises {
            double dim = sc.nextDouble();
            System.out.println("Populacao: ");
            int pop = sc.nextInt();
+           sc.nextLine();
 
            Pais p0 = new Pais(sig,nom,dim);
            p0.setPop(pop);
